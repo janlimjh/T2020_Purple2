@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<title>Monthly Expenditure</title>
+		<link rel = "stylesheet" href="/static/stylesheet.css">
+	</head>
+	<body>
+		<div id='welcome'>
+			<h4>Welcome {{ firstName }}</h4>
+		</div>
+		<div id='navigationBar'>
+			<ul>
+				<li><a href="userInfo">My Information</a></li>
+				<li><a href="viewMonthly">My Monthly Expenditure</a></li>
+				<li style="float:right;"><a href="login.html">Logout</a></li>
+			</ul>
+		</div>
+		<br/>
+		<div>
+			<h3 style="text-align:centre;">My Monthly Expenditure of 2018</h3>
+			<table id='monthlyExpenditure'>
+			  <tr>
+				<th>Jan 2018</th>
+				<td>{{ jan }}</td>
+			  </tr>
+			  <tr>
+				<th>Feb 2018</th>
+				<td>{{ feb }}</td>
+			  </tr>
+			  <tr>
+				<th>Mar 2018</th>
+				<td>{{ mar }}</td>
+			  </tr>
+			  <tr>
+				<th>Apr 2018</th>
+				<td>{{ apr }}</td>
+			  </tr>
+			  <tr>
+				<th>May 2018</th>
+				<td>{{ may }}</td>
+			  </tr>
+			  <tr>
+				<th>Jun 2018</th>
+				<td>{{ jun }}</td>
+			  </tr>
+			  <tr>
+				<th>Jul 2018</th>
+				<td>{{ jul }}</td>
+			  </tr>
+			  <tr>
+				<th>Aug 2018</th>
+				<td>{{ aug }}</td>
+			  </tr>
+			  <tr>
+				<th>Sep 2018</th>
+				<td>{{ sep }}</td>
+			  </tr>
+			  <tr>
+				<th>Oct 2018</th>
+				<td>{{ octb }}</td>
+			  </tr>
+			  <tr>
+				<th>Nov 2018</th>
+				<td>{{ nov }}</td>
+			  </tr>
+			  <tr>
+				<th>Dec 2018</th>
+				<td>{{ dec }}</td>
+			  </tr>
+			</table>
+		</div>
+		
+	</body>
+</html>

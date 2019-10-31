@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<title>My Info</title>
+		<link rel = "stylesheet" href="/static/stylesheet.css">
+	</head>
+	<body>
+		<div id='welcome'>
+			<h4>Welcome {{ firstName }}</h4>
+		</div>
+		<div id='navigationBar'>
+			<ul>
+				<li><a href="userInfo">My Information</a></li>
+				<li><a href="viewMonthly">My Monthly Expenditure</a></li>
+				<li style="float:right;"><a href="login.html">Logout</a></li>
+			</ul>
+		</div>
+		<br/>
+		<div>
+			<table id='userInfoTable'>
+			  <tr>
+				<th>Name:</th>
+				<td>{{ firstName }} {{lastName}}</td>
+			  </tr>
+			  <tr>
+				<th>Gender:</th>
+				<td>{{ gender }}</td>
+			  </tr>
+			  <tr>
+				<th>Date of birth:</th>
+				<td>{{ dob }}</td>
+			  </tr>
+			  <tr>
+				<th>Account ID:</th>
+				<td>{{ accID }}</td>
+			  </tr>
+			  <tr>
+				<th>Account type:</th>
+				<td>{{ accType }}</td>
+			  </tr>
+			  <tr>
+				<th>Account Name:</th>
+				<td>{{ accName }}</td>
+			  </tr>
+			  <tr>
+				<th>Account No.:</th>
+				<td>{{ accNo }}</td>
+			  </tr>
+			</table>
+		</div>
+		
+		<br/>
+		<h3 style="text-align: centre;">Transactions</h3>
+		<div class="over">{{ allTransac }}</div>
+	</body>
+</html>

@@ -1,0 +1,99 @@
+﻿/* Student Name: Lim Jia Hwei Janice */
+/* Student No. 5987040 */
+/* ISIT207 Assignment 3 Task 4 */
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1.3;
+    font-size: 90%;
+    background-color: #fff2df;
+    color: #674d3c;
+}
+
+#header{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+}
+
+#welcome {
+	text-align: right;
+}
+
+#navigationBar{
+	background-color: red;
+}
+
+#navigationBar ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    font-size: 17px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+#navigationBar li {
+    text-align: center;
+    display: inline;
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #bbb;
+}
+
+#navigationBar li img {
+    width: 30px;
+    height: 25px;
+    display: block;
+    float: left;
+    padding-right: 5px;
+}
+
+#navigationBar li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#navigationBar li:hover {
+    color: #fff2df;
+    background-color: #674d3c;
+}
+
+#navigationBar li a:hover {
+    color: #fff2df;
+    background-color: #674d3c;
+}
+
+#subheader{
+    padding: 20px, 0px, 0px, 20px;
+    font-size: 35px;
+}
+
+table {
+	width: 80%;
+}
+
+th{
+    text-align: left;
+}
+
+th, td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.spin{
+    padding-left: 360px;
+}
+
+th.thLeft{
+    text-align: right;
+}
+
+div.over {
+	height: 300px;
+	overflow: scroll;
+}
